@@ -1,101 +1,41 @@
-DNA Change	# Affected Cases in Cohort	Impact
-chr7:g.140753336A>T	68 / 583,11.66%	VEP: MODERATE, SIFT: deleterious - score 0, PolyPhen: probably_damaging - score 0.955
-chr12:g.25245350C>T	67 / 583,11.49%	VEP: MODERATE, SIFT: deleterious - score 0, PolyPhen: benign - score 0.303
-chr17:g.58357800delC	51 / 583,8.75%	VEP: HIGH
-chr2:g.147926117delA	50 / 583,8.58%	VEP: HIGH
-chr12:g.25245350C>A	49 / 583,8.40%	VEP: MODERATE, SIFT: deleterious - score 0, PolyPhen: probably_damaging - score 0.972
-chr3:g.179218303G>A	41 / 583,7.03%	VEP: MODERATE, SIFT: deleterious - score 0.02, PolyPhen: probably_damaging - score 0.909
-chr5:g.112839942C>T	38 / 583,6.52%	VEP: HIGH
-chr12:g.25245347C>T	38 / 583,6.52%	VEP: MODERATE, SIFT: deleterious - score 0.04, PolyPhen: benign - score 0.44
-chr17:g.7675088C>T	35 / 583,6.00%	VEP: MODERATE, SIFT: tolerated - score 0.11, PolyPhen: benign - score 0.319
-chr1:g.6197725delT	33 / 583,5.66%	VEP: HIGH
-chr10:g.844999delT	26 / 583,4.46%	VEP: HIGH
-chr3:g.179234297A>G	25 / 583,4.29%	VEP: MODERATE, SIFT: tolerated - score 0.11, PolyPhen: benign - score 0.085
-chr5:g.112840254_112840255insA	23 / 583,3.95%	VEP: HIGH
-chrX:g.130056036delC	20 / 583,3.43%	VEP: HIGH
-chr5:g.112838220C>T	19 / 583,3.26%	VEP: HIGH
-chr5:g.112780895C>T	18 / 583,3.09%	VEP: HIGH
-chr12:g.25225628C>T	18 / 583,3.09%	VEP: MODERATE, SIFT: deleterious - score 0.03, PolyPhen: possibly_damaging - score 0.844
-chr8:g.112228800delA	17 / 583,2.92%	VEP: HIGH
-chr17:g.7673802C>T	16 / 583,2.74%	VEP: MODERATE, SIFT: tolerated - score 0.13, PolyPhen: possibly_damaging - score 0.643
-chr16:g.15708830delG	15 / 583,2.57%	VEP: MODIFIER
-chr8:g.102277121delT	15 / 583,2.57%	VEP: HIGH
-chr17:g.7673776G>A	15 / 583,2.57%	VEP: MODERATE, SIFT: deleterious - score 0, PolyPhen: probably_damaging - score 1
-chr5:g.112792446C>T	15 / 583,2.57%	VEP: HIGH
-chr12:g.25245351C>A	15 / 583,2.57%	VEP: MODERATE, SIFT: deleterious - score 0.04, PolyPhen: probably_damaging - score 0.991
-chr5:g.112838934C>T	14 / 583,2.40%	VEP: HIGH
-chr17:g.7674220C>T	14 / 583,2.40%	VEP: MODERATE, SIFT: deleterious - score 0, PolyPhen: probably_damaging - score 0.994
-chr3:g.179218294G>A	13 / 583,2.23%	VEP: MODERATE, SIFT: deleterious - score 0.04, PolyPhen: probably_damaging - score 0.912
-chr5:g.112838007C>T	13 / 583,2.23%	VEP: HIGH
-chr3:g.179199088G>A	13 / 583,2.23%	VEP: MODERATE, SIFT: tolerated - score 0.06, PolyPhen: probably_damaging - score 0.971
-chr17:g.7674221G>A	12 / 583,2.06%	VEP: MODERATE, SIFT: deleterious - score 0, PolyPhen: probably_damaging - score 1
-chr17:g.7673803G>A	12 / 583,2.06%	VEP: MODERATE, SIFT: deleterious - score 0, PolyPhen: probably_damaging - score 0.999
-chr3:g.169115469delT	12 / 583,2.06%	VEP: HIGH
-chr12:g.57466292delG	11 / 583,1.89%	VEP: HIGH
-chr5:g.112827194C>T	11 / 583,1.89%	VEP: HIGH
-chr17:g.7674894G>A	10 / 583,1.72%	VEP: HIGH
-chr7:g.32975192delC	10 / 583,1.72%	VEP: HIGH
-chr9:g.134053407delG	10 / 583,1.72%	VEP: HIGH
-chr13:g.20064537delA	10 / 583,1.72%	VEP: HIGH
-chr10:g.113165558delA	10 / 583,1.72%	VEP: HIGH
-chr15:g.44711583delCT	10 / 583,1.72%	VEP: HIGH
-chr1:g.36469722delG	10 / 583,1.72%	VEP: HIGH
-chr12:g.121804752delC	10 / 583,1.72%	VEP: HIGH
-chr4:g.152328232C>T	10 / 583,1.72%	VEP: MODERATE, SIFT: deleterious - score 0, PolyPhen: probably_damaging - score 0.999
-chr1:g.26779440delG	9 / 583,1.54%	VEP: HIGH
-chr12:g.25245351C>T	9 / 583,1.54%	VEP: MODERATE, SIFT: deleterious - score 0.03, PolyPhen: possibly_damaging - score 0.582
-chr18:g.51065549G>A	9 / 583,1.54%	VEP: MODERATE, SIFT: deleterious - score 0.03, PolyPhen: probably_damaging - score 0.999
-chr7:g.91973771delA	9 / 583,1.54%	VEP: HIGH
-chr12:g.25245350C>G	9 / 583,1.54%	VEP: MODERATE, SIFT: deleterious - score 0.02, PolyPhen: possibly_damaging - score 0.723
-chr17:g.7674945G>A	8 / 583,1.37%	VEP: HIGH
-chr5:g.112839693C>T	8 / 583,1.37%	VEP: HIGH
-chr2:g.70088042T>A	8 / 583,1.37%	VEP: MODERATE, SIFT: deleterious - score 0.01, PolyPhen: probably_damaging - score 0.96
-chr5:g.112828919C>T	8 / 583,1.37%	VEP: HIGH
-chr17:g.17216395delG	8 / 583,1.37%	VEP: HIGH
-chr12:g.49040709delG	8 / 583,1.37%	VEP: HIGH
-chr6:g.29944123delC	8 / 583,1.37%	VEP: HIGH
-chr5:g.112792494C>T	8 / 583,1.37%	VEP: HIGH
-chr19:g.52212729C>T	7 / 583,1.20%	VEP: MODERATE, SIFT: deleterious - score 0, PolyPhen: probably_damaging - score 0.996
-chr17:g.7674230C>T	7 / 583,1.20%	VEP: MODERATE, SIFT: deleterious - score 0, PolyPhen: probably_damaging - score 0.998
-chr7:g.2928689delG	7 / 583,1.20%	VEP: HIGH
-chr2:g.201286567delA	7 / 583,1.20%	VEP: HIGH
-chr7:g.129212163delC	7 / 583,1.20%	VEP: HIGH
-chr2:g.42261162delA	7 / 583,1.20%	VEP: HIGH
-chr17:g.65536467delC	7 / 583,1.20%	VEP: HIGH
-chr4:g.152326137G>A	7 / 583,1.20%	VEP: MODERATE, SIFT: deleterious - score 0, PolyPhen: probably_damaging - score 1
-chr17:g.20204950delA	7 / 583,1.20%	VEP: HIGH
-chr1:g.114713909G>T	7 / 583,1.20%	VEP: MODERATE, SIFT: deleterious - score 0.01, PolyPhen: possibly_damaging - score 0.709
-chr17:g.7670685G>A	7 / 583,1.20%	VEP: HIGH
-chr5:g.112839726C>T	7 / 583,1.20%	VEP: HIGH
-chr4:g.152324294G>A	7 / 583,1.20%	VEP: MODERATE, SIFT: tolerated - score 0.15, PolyPhen: probably_damaging - score 0.991
-chr10:g.87958013delA	7 / 583,1.20%	VEP: HIGH
-chr5:g.112828889C>T	7 / 583,1.20%	VEP: HIGH
-chr13:g.35159526delA	7 / 583,1.20%	VEP: HIGH
-chr15:g.90760909delA	7 / 583,1.20%	VEP: HIGH
-chr1:g.26780313delC	6 / 583,1.03%	VEP: HIGH
-chr12:g.25227341T>G	6 / 583,1.03%	VEP: MODERATE, SIFT: deleterious - score 0, PolyPhen: benign - score 0.121
-chr3:g.77607887delC	6 / 583,1.03%	VEP: HIGH
-chr4:g.152323004delC	6 / 583,1.03%	VEP: HIGH
-chr11:g.118899943delG	6 / 583,1.03%	VEP: HIGH
-chr4:g.152328233G>A	6 / 583,1.03%	VEP: MODERATE, SIFT: deleterious - score 0, PolyPhen: probably_damaging - score 1
-chr5:g.24488110delT	6 / 583,1.03%	VEP: HIGH
-chr20:g.58909366G>A	6 / 583,1.03%	VEP: MODERATE, SIFT: deleterious - score 0.01, PolyPhen: probably_damaging - score 1
-chr2:g.147899472delA	6 / 583,1.03%	VEP: HIGH
-chr2:g.186656358delG	6 / 583,1.03%	VEP: HIGH
-chr8:g.89955284delT	6 / 583,1.03%	VEP: HIGH
-chr11:g.118902389delG	6 / 583,1.03%	VEP: HIGH
-chr17:g.7673704G>A	6 / 583,1.03%	VEP: HIGH
-chr19:g.41879540delC	6 / 583,1.03%	VEP: HIGH
-chr1:g.114716126C>T	6 / 583,1.03%	VEP: MODERATE, SIFT: deleterious - score 0, PolyPhen: benign - score 0.339
-chr5:g.112839816G>T	6 / 583,1.03%	VEP: HIGH
-chrX:g.64192215G>A	6 / 583,1.03%	VEP: HIGH
-chr5:g.112815507C>T	6 / 583,1.03%	VEP: HIGH
-chr6:g.135197200delA	6 / 583,1.03%	VEP: HIGH
-chr12:g.120994312delG	6 / 583,1.03%	VEP: HIGH
-chr5:g.112839879C>T	6 / 583,1.03%	VEP: HIGH
-chrX:g.64191798G>A	6 / 583,1.03%	VEP: HIGH
-chr5:g.112838415G>T	6 / 583,1.03%	VEP: HIGH
-chr8:g.68080486delT	5 / 583,0.86%	VEP: HIGH
-chr3:g.41224633A>G	5 / 583,0.86%	VEP: MODERATE, SIFT: deleterious - score 0, PolyPhen: probably_damaging - score 0.984
-chr3:g.179210192T>C	5 / 583,0.86%	VEP: MODERATE, SIFT: tolerated - score 0.21, PolyPhen: possibly_damaging - score 0.908
-chr5:g.112838397_112838398insA	5 / 583,0.86%	VEP: HIGH
+DNA Change	# Affected Cases in Cohort	# Affected Cases Across the GDC	Impact
+chr7:g.140753336A>T	68 / 583,11.66%	621 / 16,405	VEP: MODERATE, SIFT: deleterious - score 0, PolyPhen: probably_damaging - score 0.955
+chr12:g.25245350C>T	67 / 583,11.49%	439 / 16,405	VEP: MODERATE, SIFT: deleterious - score 0, PolyPhen: benign - score 0.303
+chr17:g.58357800delC	51 / 583,8.75%	176 / 16,405	VEP: HIGH
+chr2:g.147926117delA	50 / 583,8.58%	183 / 16,405	VEP: HIGH
+chr12:g.25245350C>A	49 / 583,8.40%	301 / 16,405	VEP: MODERATE, SIFT: deleterious - score 0, PolyPhen: probably_damaging - score 0.972
+chr3:g.179218303G>A	41 / 583,7.03%	313 / 16,405	VEP: MODERATE, SIFT: deleterious - score 0.02, PolyPhen: probably_damaging - score 0.909
+chr5:g.112839942C>T	38 / 583,6.52%	58 / 16,405	VEP: HIGH
+chr12:g.25245347C>T	38 / 583,6.52%	216 / 16,405	VEP: MODERATE, SIFT: deleterious - score 0.04, PolyPhen: benign - score 0.44
+chr17:g.7675088C>T	35 / 583,6.00%	198 / 16,405	VEP: MODERATE, SIFT: tolerated - score 0.11, PolyPhen: benign - score 0.319
+chr1:g.6197725delT	33 / 583,5.66%	199 / 16,405	VEP: HIGH
+chr10:g.844999delT	26 / 583,4.46%	64 / 16,405	VEP: HIGH
+chr3:g.179234297A>G	25 / 583,4.29%	288 / 16,405	VEP: MODERATE, SIFT: tolerated - score 0.11, PolyPhen: benign - score 0.085
+chr5:g.112840254_112840255insA	23 / 583,3.95%	38 / 16,405	VEP: HIGH
+chrX:g.130056036delC	20 / 583,3.43%	63 / 16,405	VEP: HIGH
+chr5:g.112838220C>T	19 / 583,3.26%	34 / 16,405	VEP: HIGH
+chr5:g.112780895C>T	18 / 583,3.09%	25 / 16,405	VEP: HIGH
+chr12:g.25225628C>T	18 / 583,3.09%	59 / 16,405	VEP: MODERATE, SIFT: deleterious - score 0.03, PolyPhen: possibly_damaging - score 0.844
+chr8:g.112228800delA	17 / 583,2.92%	41 / 16,405	VEP: HIGH
+chr17:g.7673802C>T	16 / 583,2.74%	123 / 16,405	VEP: MODERATE, SIFT: tolerated - score 0.13, PolyPhen: possibly_damaging - score 0.643
+chr16:g.15708830delG	15 / 583,2.57%	45 / 16,405	VEP: MODIFIER
+chr8:g.102277121delT	15 / 583,2.57%	70 / 16,405	VEP: HIGH
+chr17:g.7673776G>A	15 / 583,2.57%	111 / 16,405	VEP: MODERATE, SIFT: deleterious - score 0, PolyPhen: probably_damaging - score 1
+chr5:g.112792446C>T	15 / 583,2.57%	18 / 16,405	VEP: HIGH
+chr12:g.25245351C>A	15 / 583,2.57%	160 / 16,405	VEP: MODERATE, SIFT: deleterious - score 0.04, PolyPhen: probably_damaging - score 0.991
+chr5:g.112838934C>T	14 / 583,2.40%	30 / 16,405	VEP: HIGH
+chr17:g.7674220C>T	14 / 583,2.40%	154 / 16,405	VEP: MODERATE, SIFT: deleterious - score 0, PolyPhen: probably_damaging - score 0.994
+chr3:g.179218294G>A	13 / 583,2.23%	197 / 16,405	VEP: MODERATE, SIFT: deleterious - score 0.04, PolyPhen: probably_damaging - score 0.912
+chr5:g.112838007C>T	13 / 583,2.23%	16 / 16,405	VEP: HIGH
+chr3:g.179199088G>A	13 / 583,2.23%	82 / 16,405	VEP: MODERATE, SIFT: tolerated - score 0.06, PolyPhen: probably_damaging - score 0.971
+chr17:g.7674221G>A	12 / 583,2.06%	113 / 16,405	VEP: MODERATE, SIFT: deleterious - score 0, PolyPhen: probably_damaging - score 1
+chr17:g.7673803G>A	12 / 583,2.06%	140 / 16,405	VEP: MODERATE, SIFT: deleterious - score 0, PolyPhen: probably_damaging - score 0.999
+chr3:g.169115469delT	12 / 583,2.06%	19 / 16,405	VEP: HIGH
+chr12:g.57466292delG	11 / 583,1.89%	35 / 16,405	VEP: HIGH
+chr5:g.112827194C>T	11 / 583,1.89%	15 / 16,405	VEP: HIGH
+chr17:g.7674894G>A	10 / 583,1.72%	89 / 16,405	VEP: HIGH
+chr7:g.32975192delC	10 / 583,1.72%	21 / 16,405	VEP: HIGH
+chr9:g.134053407delG	10 / 583,1.72%	34 / 16,405	VEP: HIGH
+chr13:g.20064537delA	10 / 583,1.72%	29 / 16,405	VEP: HIGH
+chr10:g.113165558delA	10 / 583,1.72%	23 / 16,405	VEP: HIGH
+chr15:g.44711583delCT	10 / 583,1.72%	37 / 16,405	VEP: HIGH
