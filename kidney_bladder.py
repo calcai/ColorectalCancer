@@ -46,8 +46,8 @@ def merge_data(df_1, df_2):
     Finds mutations that are in one form of cancer but not the other
 '''
 def find_differences(df):
-    data1_mask = df[f'{location1} Percentage'].notna() & df[f'{location2} Percentage'].isna()
-    data2_mask = df[f'{location2} Percentage'].notna() & df[f'{location1} Percentage'].isna()
+    data1_mask = df[f'{location1} Cases'].notna() & df[f'{location2} Cases'].isna()
+    data2_mask = df[f'{location2} Cases'].notna() & df[f'{location1} Cases'].isna()
 
     data1_mutations = df[data1_mask]
     data2_mutations = df[data2_mask]
@@ -82,9 +82,31 @@ def find_num_commonalities(df_1, df_2):
 
 '''------------------------------------------------------------------------------------'''
 
+'''
+    Parameters: merged dataframe, DNA Change value
+    Finds if a DNA change is found in both cancer forms
+    If it finds a match in both, it returns the proportion of both relative to entire cohort
+'''
+
+def in_both_sets(df, dna_change):
+    index = df.index[df['DNA Change'] == dna_change]
+    if not index.empty:
+        index = index[0]  # Assuming you want the first matching index if there are multiple
+        colon_cases = df.at[index, 'Colon Cases']
+        rectum_cases = df.at[index, 'Rectum Cases']
+        return colon_cases, rectum_cases
+    return False
+
+#Input merged data, cancer location to be compared (capitalize first letter)
+def compare_to_total(merged_data, location):
+    case = pd.DataFrame()
+    case['DNA Change'] = merged_data['DNA Change']
+    case[f'{location} to Total'] = merged_data[f'{location} Cases'] - merged_data['Total Cases']
+    return case.dropna(subset = [f'{location} to Total']).sort_values(by = ['Colon to Total'], ascending=False)
 
 #Merged Colon and Rectum Data
 merged_data = merge_data(colon_data, rectum_data)
 
-print(merged_data)
+print(find_num_differences(merged_data))
 
+print(in_both_sets(merged_data, "chr7:g.140753336A>T"))
