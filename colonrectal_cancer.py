@@ -50,9 +50,13 @@ def find_differences(df):
     data2_mask = df[f'{location2} Cases'].notna() & df[f'{location1} Cases'].isna()
 
     data1_mutations = df[data1_mask]
+    data1_mutations['Cancer Type'] = 'Colon'
     data2_mutations = df[data2_mask]
+    data2_mutations['Cancer Type'] = 'Rectum'
 
-    return ([data1_mutations['DNA Change'], data2_mutations['DNA Change']])
+    result = pd.concat([data1_mutations, data2_mutations], axis = 0)
+    result.drop(['Total', 'Colon Cases', 'Rectum Cases', 'Total Cases'], axis=1, inplace=True)
+    return result
 
 '''------------------------------------------------------------------------------------'''
 
@@ -69,8 +73,8 @@ def find_num_differences(df):
 '''
 def find_commonalities(df_1, df_2):
     joined_data = pd.merge(df_1, df_2, on='DNA Change', how='inner')
-    joined_data.rename(columns={'# Affected Cases in Cohort_x': f'{location1} Frequency', '# Affected Cases in Cohort_y': f'{location2} Frequency', 'Impact_y': 'Impact'}, inplace=True)
-    return joined_data
+    joined_data.rename(columns={'# Affected Cases in Cohort_x': f'{location1} Frequency', '# Affected Cases in Cohort_y': f'{location2} Frequency', 'Impact_y': 'Impact', '# Affected Cases Across the GDC_y': 'Total'}, inplace=True)
+    return joined_data['DNA Change']
 
 '''------------------------------------------------------------------------------------'''
 
@@ -102,11 +106,16 @@ def compare_to_total(merged_data, location):
     case = pd.DataFrame()
     case['DNA Change'] = merged_data['DNA Change']
     case[f'{location} to Total'] = merged_data[f'{location} Cases'] - merged_data['Total Cases']
-    return case.dropna(subset = [f'{location} to Total']).sort_values(by = ['Colon to Total'], ascending=False)
+    return case.dropna(subset = [f'{location} to Total']).sort_values(by = [f'{location} to Total'], ascending=False)
 
 #Merged Colon and Rectum Data
 merged_data = merge_data(colon_data, rectum_data)
 
-print(find_num_differences(merged_data))
+rectum_to_total = compare_to_total(merged_data, 'Rectum')
+rectum_to_total.to_csv('./csv_files/rectum_to_total.csv', index=False)
 
-print(in_both_sets(merged_data, "chr7:g.140753336A>T"))
+
+#differences = find_differences(merged_data)
+#differences.to_csv('./csv_files/individual_mutations.csv', index=False)
+#print(merged_data)
+
